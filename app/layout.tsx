@@ -64,7 +64,10 @@ export default function RootLayout({
     servesCuisine: ["Indian Street Food", "Fruit Chaat", "Snacks"],
     priceRange: "₹39 - ₹109",
     image: "/images/fruit-minis-logo.jpeg",
-    sameAs: ["https://www.instagram.com/_fruit_minis"],
+    sameAs: [
+      "https://www.instagram.com/_fruit_minis?stkn=bHNlZDhoMHk2eTdz",
+      "https://youtube.com/@pranjalpatil3465?si=ZhlF5B1E2XcCMACS",
+    ],
   };
 
   return (

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { businessInfo } from "@/content/site";
-import { Menu, X, Instagram, Sparkles, Flame } from "lucide-react";
+import { Menu, X, Instagram, Youtube, Sparkles, Flame } from "lucide-react";
 
 export function SiteHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -79,6 +79,16 @@ export function SiteHeader() {
         {/* Desktop Right Actions */}
         <div className="hidden md:flex items-center gap-3">
           <a
+            href={businessInfo.youtubeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube Channel"
+            className="p-2 text-zinc-700 hover:text-red-600 hover:bg-paper-200 rounded-full transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600"
+            title="Fruit Minis YouTube"
+          >
+            <Youtube className="w-5 h-5 text-red-600" />
+          </a>
+          <a
             href={businessInfo.instagramUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -89,8 +99,17 @@ export function SiteHeader() {
           </a>
         </div>
 
-        {/* Mobile Hamburger Button */}
-        <div className="flex md:hidden items-center gap-2">
+        {/* Mobile Buttons */}
+        <div className="flex md:hidden items-center gap-1.5">
+          <a
+            href={businessInfo.youtubeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube Channel"
+            className="p-2 text-red-600 hover:text-red-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded-full"
+          >
+            <Youtube className="w-5 h-5" />
+          </a>
           <a
             href={businessInfo.instagramUrl}
             target="_blank"
@@ -134,7 +153,7 @@ export function SiteHeader() {
             ))}
           </div>
 
-          <div className="pt-3 border-t border-ink/10">
+          <div className="pt-3 border-t border-ink/10 space-y-2">
             <a
               href={businessInfo.instagramUrl}
               target="_blank"
@@ -142,7 +161,16 @@ export function SiteHeader() {
               className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-pink-600 to-orange-500 text-white px-4 py-3 rounded-xl font-bold text-sm shadow-sticker min-h-[44px]"
             >
               <Instagram className="w-5 h-5" />
-              <span>Follow @{businessInfo.instagramHandle} for daily cart updates</span>
+              <span>Follow @{businessInfo.instagramHandle} for daily spots</span>
+            </a>
+            <a
+              href={businessInfo.youtubeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center gap-2 bg-red-600 text-white px-4 py-3 rounded-xl font-bold text-sm shadow-sticker min-h-[44px]"
+            >
+              <Youtube className="w-5 h-5" />
+              <span>Subscribe on YouTube ({businessInfo.youtubeHandle})</span>
             </a>
           </div>
         </div>

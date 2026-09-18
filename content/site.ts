@@ -5,7 +5,9 @@ export const businessInfo: BusinessInfo = {
   tagline: "Small Bites. Big Freshness.",
   slogan: "Crispy, Crunchy, Chatpata! Fun in every bite!",
   instagramHandle: "_fruit_minis",
-  instagramUrl: "https://www.instagram.com/_fruit_minis",
+  instagramUrl: "https://www.instagram.com/_fruit_minis?stkn=bHNlZDhoMHk2eTdz",
+  youtubeHandle: "@pranjalpatil3465",
+  youtubeUrl: "https://youtube.com/@pranjalpatil3465?si=ZhlF5B1E2XcCMACS",
   format: "Authentic Street Food Cart",
   // Strictly unverified / TBD:
   // phone: undefined,
@@ -14,7 +16,6 @@ export const businessInfo: BusinessInfo = {
   // city: undefined,
   // mapsUrl: undefined,
   // openingHours: undefined,
-  // youtubeUrl: undefined,
 };
 
 export const chipsAddaTiers: ChipTier[] = [

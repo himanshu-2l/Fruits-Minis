@@ -4,6 +4,8 @@ export interface BusinessInfo {
   slogan: string;
   instagramHandle: string;
   instagramUrl: string;
+  youtubeHandle?: string;
+  youtubeUrl?: string;
   format: string;
   // Strictly unverified / TBD fields that remain undefined or optional
   phone?: string;
@@ -12,7 +14,6 @@ export interface BusinessInfo {
   city?: string;
   mapsUrl?: string;
   openingHours?: { days: string; hours: string }[];
-  youtubeUrl?: string;
 }
 
 export interface ChipTier {

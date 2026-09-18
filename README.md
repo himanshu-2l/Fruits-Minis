@@ -80,5 +80,7 @@ npm run start
 ---
 
 ## 📱 Connect With Us
-- **Instagram**: [@_fruit_minis](https://www.instagram.com/_fruit_minis)
-- Real-time cart locations and daily fresh fruit batches are posted directly to our Instagram stories.
+- **Instagram**: [@_fruit_minis](https://www.instagram.com/_fruit_minis?stkn=bHNlZDhoMHk2eTdz)
+- **YouTube**: [@pranjalpatil3465](https://youtube.com/@pranjalpatil3465?si=ZhlF5B1E2XcCMACS)
+- Real-time cart locations, daily fresh fruit batches, and behind-the-counter vlogs are posted directly to our official channels.
+

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { businessInfo } from "@/content/site";
-import { Instagram, MapPin, Sparkles, Heart } from "lucide-react";
+import { Instagram, Youtube, Sparkles, Heart } from "lucide-react";
 
 export function SiteFooter() {
   return (
@@ -84,20 +84,31 @@ export function SiteFooter() {
           {/* Col 3: Social & Cart Location Notice */}
           <div className="md:col-span-4 space-y-4">
             <h3 className="font-display text-lg font-black text-white uppercase tracking-wider">
-              Cart Location &amp; Updates
+              Official Channels
             </h3>
             <p className="text-xs text-zinc-400 leading-relaxed">
-              We operate as a live street-food cart. Real-time cart spot updates, daily fruit batches, and seasonal specials are posted directly to our Instagram stories.
+              We operate as a live street-food cart in Bemetara. Real-time cart spot updates, daily fruit batches, and behind-the-counter vlogs are posted to our official channels.
             </p>
-            <a
-              href={businessInfo.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-600 to-orange-500 hover:from-pink-500 hover:to-orange-400 text-white font-bold text-xs uppercase px-4 py-2.5 rounded-lg shadow-sticker transition-all"
-            >
-              <Instagram className="w-4 h-4" />
-              <span>Follow @{businessInfo.instagramHandle}</span>
-            </a>
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5">
+              <a
+                href={businessInfo.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-pink-600 to-orange-500 hover:from-pink-500 hover:to-orange-400 text-white font-bold text-xs uppercase px-4 py-2.5 rounded-xl shadow-sticker transition-all min-h-[44px]"
+              >
+                <Instagram className="w-4 h-4" />
+                <span>@{businessInfo.instagramHandle}</span>
+              </a>
+              <a
+                href={businessInfo.youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-500 text-white font-bold text-xs uppercase px-4 py-2.5 rounded-xl shadow-sticker transition-all min-h-[44px]"
+              >
+                <Youtube className="w-4 h-4" />
+                <span>YouTube</span>
+              </a>
+            </div>
           </div>
         </div>
 
