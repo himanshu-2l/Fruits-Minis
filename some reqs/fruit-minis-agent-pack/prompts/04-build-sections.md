@@ -1,0 +1,2 @@
+# Prompt 04 — Build the Experience
+Now implement each homepage section according to the handoff. Give each section a distinct composition while preserving one design language. Make Fruit Chaat visually important despite missing menu details; do not invent them. Make Chips Adda's ₹39/₹59/₹79/₹109 progression exceptionally easy to understand. Avoid generic card grids. Use the supplied assets intelligently rather than as random rectangular images.

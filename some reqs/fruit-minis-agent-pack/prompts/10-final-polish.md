@@ -1,0 +1,2 @@
+# Prompt 10 — Final Production Pass
+Perform final visual QA on representative mobile, tablet and desktop sizes. Improve optical alignment, line breaks, whitespace, image crops, interaction feedback and loading behavior. Remove dead code/dependencies and placeholders. Confirm all acceptance criteria. End with a concise report of what was built and a list of only the real business details still needed from the owner.

@@ -1,0 +1,2 @@
+# Prompt 08 — Anti-AI UI Critique
+Act as a demanding design director. Inspect the rendered site and list every area that looks like an AI-generated template: repeated cards, predictable centered sections, excessive rounding, weak typography, generic icons, unnecessary gradients, arbitrary decoration, inconsistent spacing, weak food imagery or fake-looking copy. Then fix those issues. Do not defend the existing implementation.

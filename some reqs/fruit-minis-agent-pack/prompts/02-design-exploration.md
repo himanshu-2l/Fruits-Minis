@@ -1,0 +1,2 @@
+# Prompt 02 — Design Exploration
+Create a concrete art direction for Fruit Minis called "Street Cart Editorial." Define typography roles, color roles, texture, composition, image treatment, button treatment, section transitions and mobile behavior. Explain how each decision comes from the supplied brand/cart/menu rather than current generic landing-page trends. Then map the visual rhythm of the entire homepage. No code yet.
